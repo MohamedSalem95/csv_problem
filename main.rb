@@ -86,7 +86,6 @@ brand_with_count_final = product_brand_count.map do |el|
     filtered_array
 end
 
-[[["shoes", "Air", 2]], [["forks", "Pfitzcraft", 1]]]
 second_csv = brand_with_count_final.map do |el|
     [el[0][0], el[0][1]]
 end
