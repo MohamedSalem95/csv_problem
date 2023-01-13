@@ -35,9 +35,9 @@ first_csv = total_qantity_of_each_product.map { |line| [line[0], (line[1].to_f /
 puts first_csv.inspect
 
 # get file name
-puts 'Please Enter first file name 0_file_name '
-first_name = gets
-puts first_name
+# puts 'Please Enter first file name 0_file_name '
+# first_name = gets
+# puts first_name
 
 # write to csv
 CSV.open('file_1.csv', 'w') do |file|
@@ -96,7 +96,7 @@ CSV.open('file_2.csv', 'w') do |file|
     second_csv.each { |line| file << line }
 end
 
-
+puts 'second file created successfully'
 ###################################################################################################
 ###################################################################################################
 # THAT WAS ALOT OF FUN TRYING TO SOLVE THESS PROBEMS
