@@ -99,5 +99,5 @@ end
 puts 'second file created successfully'
 ###################################################################################################
 ###################################################################################################
-# THAT WAS ALOT OF FUN TRYING TO SOLVE THESS PROBEMS
+# THAT WAS ALOT OF FUN TRYING TO SOLVE THESE PROBEMS
 # THANK YOU
