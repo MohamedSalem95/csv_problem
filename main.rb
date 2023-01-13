@@ -40,7 +40,7 @@ puts first_csv.inspect
 # puts first_name
 
 # write to csv
-CSV.open('file_1.csv', 'w') do |file|
+CSV.open('0_file.csv', 'w') do |file|
     first_csv.each { |line| file << line }
 end
 
@@ -91,12 +91,14 @@ second_csv = brand_with_count_final.map do |el|
 end
 
 
-
-CSV.open('file_2.csv', 'w') do |file|
+# write to csv
+CSV.open('1_file.csv', 'w') do |file|
     second_csv.each { |line| file << line }
 end
 
 puts 'second file created successfully'
+
+puts 'Done ^_^'
 ###################################################################################################
 ###################################################################################################
 # THAT WAS ALOT OF FUN TRYING TO SOLVE THESE PROBEMS
