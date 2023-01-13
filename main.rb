@@ -101,5 +101,5 @@ puts 'second file created successfully'
 puts 'Done ^_^'
 ###################################################################################################
 ###################################################################################################
-# THAT WAS ALOT OF FUN TRYING TO SOLVE THESE PROBEMS
+# THAT WAS ALOT OF FUN TRYING TO SOLVE THESE PROBLEMS
 # THANK YOU
